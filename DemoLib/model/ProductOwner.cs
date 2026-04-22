@@ -42,5 +42,12 @@ namespace DemoLib.model
         {
             return base.ToString() + ", Company=" + Company;  // kalder Person's ToString() og tilføjer Company
         }
+
+
+
+        public override string Salery()
+        {
+               return "Jeg tjener 25000 kr om måneden";
+        }
     }
 }

@@ -45,5 +45,10 @@ namespace DemoLib.model
         {
             return "Name= " + Name + ", Email=" + Email;
         }
+
+        public virtual string Salery()
+        {
+            return "Jeg tjener 12000 kr om måneden";
+        }
     }
 }

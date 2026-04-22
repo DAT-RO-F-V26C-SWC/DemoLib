@@ -5,10 +5,15 @@ Console.WriteLine("Hello, World!");
 
 Person p = new Person("Peter", "pele@zealand.dk");
 
-Console.WriteLine(p);
+Console.WriteLine(p.Salery());
 
 ProductOwner po = new ProductOwner("Vibeke", "visa@zealand.dk", "Zealand");
 
-Console.WriteLine(po);
+Console.WriteLine(po.Salery());
 
-po.Email = "hhhhh";
+
+
+Person ppo = po;
+Console.WriteLine(ppo.Salery());
+
+
